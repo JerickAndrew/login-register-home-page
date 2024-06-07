@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylef.css">
+    <script src="scriptf.js"></script>
+</head>
+<body>
+    <div class="main">
+        <form id="register-form" action="#" method="post">
+            <h1>Sign Up</h1>
+            <div class="username">
+                <label>Username:<input type="text" placeholder="Enter your username" required minlength="5" maxlength="20"></label>
+            </div>
+            <div class="password">
+                <label>Password:<input type="password" placeholder="Enter your password" required minlength="5" maxlength="20"></label>
+            </div>
+            <div class="email">
+                <label>Email:<input type="email" placeholder="yourmail@gmail.com" required></label>
+            </div>
+            <div class="phone">
+                <label>Phone:<input type="tel" placeholder="9876543210" pattern="[0-9]{10}" required></label>
+            </div>
+            <div class="address">
+                <label>Address:<textarea cols="25" rows="4"></textarea></label>
+            </div>
+            <div class="bod">
+                <label>Birthday:<input type="date" required></label>
+            </div>
+            <div class="age">
+                <label>Age:<input type="number" min="18" max="99" required></label>
+            </div>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <div class="male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" value="Male" name="gender">
+                </div>
+                <div class="female">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" value="Female" name="gender">
+                </div>
+            </div>
+            <div class="region">
+                <label for="region">Your Region:</label>
+                <select id="region">
+                    <option value="Africa">Africa</option>
+                    <option value="America">America</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Europe">Europe</option>
+                </select>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" required>I agree to the above information</label>
+            </div>
+            <div class="file">
+                <label>Your Profile:<input type="file" accept="image/png, image/jpeg"></label>
+            </div>
+            <div class="reset">
+                <input type="reset">
+            </div>
+            <div class="sign-in">
+                <button type="submit" class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

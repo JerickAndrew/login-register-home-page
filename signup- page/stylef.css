@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('f.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.main {
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(189, 189, 189, 0.2);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: rgb(231, 254, 255); 
+    border-radius: 10px;  
+    padding: 30px 40px;
+}
+
+.main h1 {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.main .username {
+    position: relative;    
+    height: 5px;
+    margin: 15px 0;
+}
+
+.username input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(30px);
+    
+}
+
+.main .password {
+    position: relative;    
+    height: 15px;
+    margin: 30px 0;
+}
+
+.password input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(33px);
+    
+}
+
+.main .email {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+}
+
+.email input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(23px);
+    transform: translateX(57px);
+    
+}
+.main .phone {
+    position: relative;    
+    height: 10px;
+}
+
+.phone input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(20px);
+    transform: translateX(55px);
+    
+}
+.main .address {
+    position: relative;    
+    height: 50px;
+    margin: 30px 0;
+    transform: translateY(-15);
+}
+
+.address textarea {
+    position: fixed;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 5px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(10px);  
+    transform: translateX(40px);  
+}
+.main .bod {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+    padding-top: 5px;
+}
+.bod input:hover{
+    cursor: pointer;
+}
+.bod input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 45px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(9px);   
+    transform: translateX(39px); 
+}
+
+.main .age {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+    padding-top: 5px;
+}
+
+.age input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 10px 1px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(75px);   
+}
+.main .gender {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+    padding-top: 7px;
+}
+.male{
+    padding-left: 115px;
+    transform: translateY(-17px);
+    
+}
+.male input:hover{
+    cursor: pointer;
+}
+
+
+.female{
+    padding-left: 115px;
+    transform: translateY(-15px);
+}
+.female input:hover{
+    cursor: pointer;
+}
+.main .region {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+    padding-top: 9px;
+}
+.region select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(104, 189, 192);
+    padding: 10px 1px 2px 20px;
+    margin-left: 5px;
+    transform: translateY(5px);
+    transform: translateX(20px);    
+}
+.main .checkbox {
+    position: relative;    
+    height: 10px;
+    margin: 30px 0;
+    padding-top: 7px;
+    
+}
+.checkbox input:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.main .file {
+    position: relative;    
+    height: 5px;
+    margin: 30px 0;
+}
+.file input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px  rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-left: 5px;
+}
+.main .reset {
+    text-align: center;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+.reset input {
+    background-color: rgb(156, 156, 155);
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 2px  rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    font-size: 14px;
+    color: hsl(143, 100%, 10%);
+    padding: 10px 30px 2px 20px;
+    margin-left: 5px;
+}
+.reset input:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main .sign-in {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.sign-in a {
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 2px  rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(46, 127, 151);
+    padding: 5px 30px 2px 20px;
+    margin-left: 5px;
+} 
+.sign-in input:hover{
+    cursor: pointer;
+}
+
